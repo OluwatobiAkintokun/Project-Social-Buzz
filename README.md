@@ -8,10 +8,16 @@ This project revolves around the examination of 'Social Buzz,' a company that is
 
 There are 3 datasets provided for this analysis.
 1.	Content Dataset – The Content dataset consists of the following column names: Content ID, User ID, Type, Category, and URL.
+   
+![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/22045082-7d24-4b27-b37a-21b05b58097b)
+
 2.	Reactions Dataset - The Reactions dataset consists of the following column names: Content ID, User ID, Type, and Datetime
+
+   ![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/0c6c8d33-476a-4b08-9d28-9b800ca6f7da)
+
 3.	Reaction Types Dataset- The Reaction Types dataset consists of the following column names: Type, Sentiment, and Score.
    
-   Please see attached.
+   ![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/565bda9b-e455-42e5-9a03-8cd157441d43)
    
 # DATA CLEANING
 
