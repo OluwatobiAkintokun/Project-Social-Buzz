@@ -25,19 +25,20 @@ There are 3 datasets provided for this analysis.
 2.	I standardized the column names across the datasets to ensure consistency. Specifically, I replaced the 'Type' column in the Content dataset with 'Content Type' and made the same adjustment in the Reactions and Reaction Types dataset, where 'Type' became 'Reaction Type'. 
 3.	In addition, I removed quotation marks from ‘categories’ column in the Content dataset to maintain a uniform naming convention.
    
-   Note: Data cleaning was done using Ms Excel.
+   **Note:** Data cleaning was done using Ms Excel.
 
   # DATA TRANSFORMATION 
 1. I created a finalized dataset titled 'Clean Merged Dataset' by merging information from the Content, Reactions, and Reaction Types datasets. This merging process was executed using the ‘VLOOKUP’ formular within Ms Excel, with the Reaction Table serving as the base table.
-![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/3f14427c-3c80-47dc-ab50-73cebaa8a54d)
+   
+![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/d5023c88-2cb8-4540-bdc8-b4ef409e4629)
 
 2. In order to identify the top 5 categories, I computed the cumulative scores for each category by applying the 'SUMIF' formula in Microsoft Excel.
    
-![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/d70af9fe-bee3-4345-97e0-38af499472f3)
+![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/8050706e-4478-41ac-8349-273fc559bebb)
 
 3. See below Top 5 categories
 
-![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/4e4dd04e-e690-4624-8985-9463c5da7147)
+![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/1450838b-23b8-461c-88ff-91ac680e9d0c)
 
 # DATA VISUALIZATION
 
