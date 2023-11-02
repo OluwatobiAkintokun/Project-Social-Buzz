@@ -41,7 +41,7 @@ There are 3 datasets provided for this analysis.
 ![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/1450838b-23b8-461c-88ff-91ac680e9d0c)
 
 # DATA VISUALIZATION
-A user-friendly and interactive dashboard has been developed to present the results of this data analysis.
+A user-friendly and interactive dashboard has been developed using Power BI to present the results of this data analysis. 
 
 ![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/7e68e580-7ac0-4bac-adbf-946d833c3e0f)
 
