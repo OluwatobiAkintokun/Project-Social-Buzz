@@ -33,6 +33,11 @@ There are 3 datasets provided for this analysis.
 
 ![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/4e4dd04e-e690-4624-8985-9463c5da7147)
 
+# DATA VISUALIZATION
+
+![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/7e68e580-7ac0-4bac-adbf-946d833c3e0f)
+
+# INSIGHTS AND CONCLUSION
 
 
 
