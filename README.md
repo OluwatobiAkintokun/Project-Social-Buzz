@@ -24,3 +24,7 @@ There are 3 datasets provided for this analysis.
   # DATA TRANSFORMATION 
 1. I created a finalized dataset titled 'Clean Merged Dataset' by merging information from the Content, Reactions, and Reaction Types datasets. This merging process was executed using the ‘VLOOKUP’ formula within Ms Excel, with the Reaction Table serving as the base table.
 3. In order to identify the top 5 categories, I computed the cumulative scores for each category by applying the 'SUMIF' formula in Microsoft Excel.
+![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/3f14427c-3c80-47dc-ab50-73cebaa8a54d)
+
+
+
