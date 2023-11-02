@@ -50,7 +50,7 @@ Upon analyzing the data, I have identified 16 distinct content categories. My fi
 
 Notably, 'Animals' stands out as the leading category, amassing a total reaction score of 1,897. Within this category, there are 570 audio posts, 342 GIFs, 674 photos, and 311 videos. This indicates a strong affinity among our audience for animal-related content.
 
-What's intriguing is the presence of both 'Food' and'Healthy Eating' in the top 5, emphasizing the strong engagement with food-related content. Healthy eating, ranking just above food, suggests that our user base might lean towards health-conscious individuals.
+What's intriguing is the presence of both 'Food' and 'Healthy Eating' in the top 5, emphasizing the strong engagement with food-related content. Healthy eating, ranking just above food, suggests that our user base might lean towards health-conscious individuals.
 
 Furthermore, the inclusion of 'Science' and 'Technology' in the top 5 highlights a preference for informative content that offers learning opportunities.
 
