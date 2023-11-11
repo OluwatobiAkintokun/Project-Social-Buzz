@@ -7,32 +7,33 @@ This project revolves around the examination of 'Social Buzz,' a company that is
 # DATASETS
 
 There are 3 datasets provided for this analysis.
-1.	Content Dataset – The Content dataset consists of the following column names: Content ID, User ID, Type, Category, and URL.
+Content Dataset – The Content dataset consists of the following column names: Content ID, User ID, Type, Category, and URL.
    
-2.	Reactions Dataset - The Reactions dataset consists of the following column names: Content ID, User ID, Type, and Datetime
+Reactions Dataset - The Reactions dataset consists of the following column names: Content ID, User ID, Type, and Datetime
 
-3.	Reaction Types Dataset- The Reaction Types dataset consists of the following column names: Type, Sentiment, and Score.
+Reaction Types Dataset- The Reaction Types dataset consists of the following column names: Type, Sentiment, and Score.
    
 # DATA CLEANING AND TRANSFORMATION
 
-1.	I refined our datasets by removing unnecessary columns and rows that didn't pertain to the primary business question. This included the removal of the ‘URL’ and ‘User ID’ columns in the Content dataset, as well as the ‘User ID’ column in the Reactions dataset. Blank rows, which were not relevant to our analysis, were also removed from all three datasets.
-2.	I standardized the column names across the datasets to ensure consistency. Specifically, I replaced the 'Type' column in the Content dataset with 'Content Type' and made the same adjustment in the Reactions and Reaction Types dataset, where 'Type' became 'Reaction Type'. 
-3.	In addition, I removed quotation marks from ‘categories’ column in the Content dataset to maintain a uniform naming convention.
+* I refined our datasets by removing unnecessary columns and rows that didn't pertain to the primary business question. This included the removal of the ‘URL’ and ‘User ID’ columns in the Content dataset, as well as the ‘User ID’ column in the Reactions dataset. Blank rows, which were not relevant to our analysis, were also removed from all three datasets.
+*	I standardized the column names across the datasets to ensure consistency. Specifically, I replaced the 'Type' column in the Content dataset with 'Content Type' and made the same adjustment in the Reactions and Reaction Types dataset, where 'Type' became 'Reaction Type'. 
+*	In addition, I removed quotation marks from ‘categories’ column in the Content dataset to maintain a uniform naming convention.
    
-   **Note:** Data cleaning was done using Ms Excel.
+**Note:** Data cleaning was done using Ms Excel.
 
-  # DATA ANALYSIS
-1. I created a finalized dataset titled 'Clean Merged Dataset' by merging information from the Content, Reactions, and Reaction Types datasets. This merging process was executed using the ‘VLOOKUP’ formular within Ms Excel, with the Reaction Table serving as the base table.
+# DATA ANALYSIS
+
+* I created a finalized dataset titled 'Clean Merged Dataset' by merging information from the Content, Reactions, and Reaction Types datasets. This merging process was executed using the ‘VLOOKUP’ formular within Ms Excel, with the Reaction Table serving as the base table.
    
 ![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/d5023c88-2cb8-4540-bdc8-b4ef409e4629)
 
-2. In order to identify the top 5 categories, I computed the cumulative scores for each category by applying the 'SUMIF' formula in Microsoft Excel.
+* In order to identify the top 5 categories, I computed the cumulative scores for each category by applying the 'SUMIF' formula in Microsoft Excel.
    
-![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/8050706e-4478-41ac-8349-273fc559bebb)
+![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/0959c145-35cc-4284-9f70-327d068c04a6)
 
-3. See below Top 5 categories
-
-![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/1450838b-23b8-461c-88ff-91ac680e9d0c)
+* See below Top 5 categories
+  
+![image](https://github.com/Tanpepper29/PROJECT-SOCIAL-BUZZ/assets/137109080/6e167626-5c89-4b1b-9a2a-84aab325d22f)
 
 # DATA VISUALIZATION
 A user-friendly and interactive dashboard has been developed using Power BI to present the results of this data analysis. 
@@ -55,10 +56,9 @@ A user-friendly and interactive dashboard has been developed using Power BI to p
 
 * 'Animals' and 'Science' stand out as the top two categories, signifying a strong user preference for 'real-life' and 'factual' content. I recommend that the business should consider launching educational campaigns or series within the 'Science' category to provide users with valuable and informative content. This aligns with user interests and is likely to garner higher engagement.
 
-* The analysis of the sentiment paints a clear picture: a significant 84.64% of users express positive satisfaction, 8.71% remain neutral, and 6.65% express negative sentiments.
-Based on this data, I would make the following recommendations;
-1. Capitalize on the huge positive sentiment by highlighting and promoting content that resonates with users. This can include positive user reviews, success stories, or uplifting content.
-2. Pay attention to the 6.65% with negative sentiment. Investigate the reasons behind it, whether it's related to specific content, user experiences, or other factors. Take steps to address these issues to improve user satisfaction.
-3. Explore the content that falls under the neutral sentiment category. Consider ways to make it more engaging or informative to potentially shift it towards a positive sentiment.
+* The analysis of the sentiment paints a clear picture: a significant 84.64% of users express positive satisfaction, 8.71% remain neutral, and 6.65% express negative sentiments. Based on this data, I would make the following recommendations;
+* Capitalize on the huge positive sentiment by highlighting and promoting content that resonates with users. This can include positive user reviews, success stories, or uplifting content.
+* Pay attention to the 6.65% with negative sentiment. Investigate the reasons behind it, whether it's related to specific content, user experiences, or other factors. Take steps to address these issues to improve user satisfaction.
+* Explore the content that falls under the neutral sentiment category. Consider ways to make it more engaging or informative to potentially shift it towards a positive sentiment.
 
 Dataset from theforage.com (Accessed: July 2023)
