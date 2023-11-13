@@ -1,10 +1,8 @@
-# PROJECT-SOCIAL-BUZZ
-
-# BUSINESS QUESTION
+# Business Question
 
 This project revolves around the examination of 'Social Buzz,' a company that is progressively evolving into a global unicorn enterprise. Their platform routinely receives an influx of over 100,000 posts daily, aggregating to a staggering 36,500,000 posts annually. Notably, this data is predominantly unstructured, rendering it complex to extract meaningful insights. The key focus of this analysis is to highlight the top 5 content categories within this datasets.
 
-# DATASETS
+# Datasets
 
 There are 3 datasets provided for this analysis.
 
@@ -14,7 +12,7 @@ Reactions Dataset - The Reactions dataset consists of the following column names
 
 Reaction Types Dataset- The Reaction Types dataset consists of the following column names: Type, Sentiment, and Score.
    
-# DATA CLEANING AND TRANSFORMATION
+# Data cleaning and transformation
 
 * I refined the datasets by removing unnecessary columns and rows that didn't pertain to the primary business question. This included the removal of the ‘URL’ and ‘User ID’ columns in the Content dataset, as well as the ‘User ID’ column in the Reactions dataset.
 * Blank rows, which were not relevant to the analysis, were also removed from all three datasets.
@@ -23,7 +21,7 @@ Reaction Types Dataset- The Reaction Types dataset consists of the following col
    
 **Note:** Data cleaning was done using Ms Excel.
 
-# DATA ANALYSIS
+# Data analysis
 
 I created a final dataset titled 'Clean Merged Dataset' by merging information from the Content, Reactions, and Reaction Types datasets. This merging process was executed using the ‘VLOOKUP’ formular within Microsoft Excel, with the Reaction Table serving as the base table.
   
@@ -33,24 +31,24 @@ In order to identify the top 5 categories, I computed the cumulative scores for 
    
 ![image](https://github.com/OluwatobiAkintokun/PROJECT-SOCIAL-BUZZ/assets/137109080/d50b27fb-3ef5-48b3-88a4-e7502904ec47)
 
-# DATA VISUALIZATION
+# Data Visualisation
 
 
-**TOP 5 CATEGORIES**
+**Top 5 Categories**
 
 Below is a column chart and pie chart, showing the top 5 categories in actual numbers and percentages.
 
 ![image](https://github.com/OluwatobiAkintokun/PROJECT-SOCIAL-BUZZ/assets/137109080/84d9c2a3-ce6c-45b9-ba69-67557337d504)
 
 
-**DASHBOARD**
+**Dashboard**
 
 A user-friendly and interactive dashboard has been developed using Power BI to present the results of this data analysis. 
 
 ![image](https://github.com/OluwatobiAkintokun/PROJECT-SOCIAL-BUZZ/assets/137109080/f973fb0f-5853-424b-9b73-e1035d52fd34)
 
 
-# INSIGHTS AND RECOMMENDATIONS
+# Insights and Recommendation
 * Upon analyzing the data, I have identified 16 distinct content categories. My findings confirm that the five most popular categories of posts are, in order of popularity: Animals, Science, Healthy eating, Technology, and Food.
 
 * 'Animals' stands out as the leading category, amassing a total reaction score of 1,897. Within this category, there are 570 audio posts, 342 GIFs, 674 photos, and 311 videos. This indicates a strong affinity among the audience for animal related content.
