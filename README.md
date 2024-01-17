@@ -6,11 +6,11 @@ This project revolves around the examination of 'Social Buzz,' a company that is
 
 There are 3 datasets provided for this analysis.
 
-Content Dataset – The Content dataset consists of the following column names: Content ID, User ID, Type, Category, and URL.
+Content Dataset – The Content dataset consists of the following column names: Content ID, User ID, Type, Category, and URL. [Download Here](https://github.com/OluwatobiAkintokun/Project-Social-Buzz/blob/main/Content.csv)
    
-Reactions Dataset - The Reactions dataset consists of the following column names: Content ID, User ID, Type, and Datetime.
+Reactions Dataset - The Reactions dataset consists of the following column names: Content ID, User ID, Type, and Datetime. [Download Here](https://github.com/OluwatobiAkintokun/Project-Social-Buzz/blob/main/Reactions.csv)
 
-Reaction Types Dataset- The Reaction Types dataset consists of the following column names: Type, Sentiment, and Score.
+Reaction Types Dataset- The Reaction Types dataset consists of the following column names: Type, Sentiment, and Score. [Download Here](https://github.com/OluwatobiAkintokun/Project-Social-Buzz/blob/main/Reaction%20Types.csv)
    
 # Data cleaning and transformation
 
@@ -23,7 +23,7 @@ Reaction Types Dataset- The Reaction Types dataset consists of the following col
 
 # Data analysis
 
-I created a final dataset titled 'Clean Merged Dataset' by merging information from the Content, Reactions, and Reaction Types datasets. This merging process was executed using the ‘VLOOKUP’ formular within Microsoft Excel, with the Reaction Table serving as the base table.
+I created a final dataset titled 'Clean Merged Dataset' by merging information from the Content, Reactions, and Reaction Types datasets. This merging process was executed using the ‘VLOOKUP’ formular within Microsoft Excel, with the Reaction Table serving as the base table. [Download Here](https://github.com/OluwatobiAkintokun/Project-Social-Buzz/blob/main/Clean%20Merged%20Dataset.xlsx)
   
 ![image](https://github.com/OluwatobiAkintokun/PROJECT-SOCIAL-BUZZ/assets/137109080/68208dad-3e1c-49c6-b878-91720ed71187)
   
