@@ -43,7 +43,7 @@ Below is a column chart and pie chart, showing the top 5 categories in actual nu
 
 **Dashboard**
 
-A user-friendly and interactive dashboard has been developed using Power BI to present the results of this data analysis. 
+A user-friendly and interactive dashboard has been developed using Power BI to present the results of this data analysis. [View Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOGE4N2YyMWMtNjFhOC00MTUyLThlZDMtZGFmNWNhZWZmZjIxIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ![image](https://github.com/OluwatobiAkintokun/PROJECT-SOCIAL-BUZZ/assets/137109080/f973fb0f-5853-424b-9b73-e1035d52fd34)
 
